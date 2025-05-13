@@ -1,0 +1,313 @@
+@charset "utf-8";
+/***************Index**********/
+body {
+    background-image: url("../Images/background.png");
+    background-size: cover;
+    font-family: Almanch,Skia, sans-serif;
+    }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: baseline;
+}
+.fa-solid.fa-cart-shopping.fa-3x{
+    color: rgb(50,36,20)
+}
+
+h1,h2,h3{
+    margin: 0;
+    padding: 25px;
+}
+
+blog {
+    float:left;
+    background-color: rgb(247,203,22);
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    width: 93.2%;
+}
+
+article p {
+    float: left;
+    width: 95%;
+    height: 75px;
+    padding: 20px;
+    margin:auto;
+    margin-top: -10;
+    color:rgb(51, 37, 20);
+    position: relative;
+    z-index: 1000;
+}
+
+article h4 {
+    float: left;
+    height: 10px;
+    background: #ccc;
+    padding: 20px;
+    margin-top: 0px;
+    font-size:10px;
+    
+}
+#container {
+    background-color: rgb(252, 240, 191);
+    width: 900px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav {
+    overflow:hidden;
+    background-color: rgb(50,36,20);
+    height: 65px
+}
+
+.topnav a{
+    color: rgb(247,203,22);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.topnav li{
+    list-style: none;
+}
+
+.topnav ul{
+    float:right;
+    padding: 10px;
+}
+
+.topnav ul li {
+    float: left;
+    list-style: none;
+}
+    
+.slider_image {
+    flex-wrap: wrap;
+    display: flex;
+} 
+    
+.reviews {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(50,36,20);
+  color: rgb(247,203,22);
+  text-decoration: none;
+  margin-left: 110px;
+  font-size: 20px;
+  
+}
+
+.socials {
+  padding: 10px 20px;
+  background-color: rgb(50,36,20);
+  color: rgb(247,203,22);
+  text-decoration: none;
+  float:right;
+  margin-right: 70px;
+  bottom: 10px;
+  font-size: 20px;
+    
+}
+.comumns {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.columleft{
+    width: 600px;
+    display:flex;
+    padding: 10px;
+    
+}
+.columnright{
+    width:55px;
+    padding: 20px;
+    transform:translateY(-120px);
+    position: relative;
+    left: 700px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(247,203,22);
+    padding: 10px;
+    
+}
+
+
+/********** about page ************
+ **********************************/
+    
+.hbox2 a {
+    padding: 10px 20px;
+    background-color: rgb(50,36,20);
+    color: rgb(247,203,22);
+    text-decoration:none;
+    float: right;
+    margin-right:20px;
+        
+}
+.title1  {
+    text-align: center;
+    color:rgb(50,36,20);
+    background-color: rgb(247,203,22)
+    
+}
+.container1 {
+    text-align:justify-all;
+    padding:10px 20px;
+}
+.founders {
+    background-color: rgb(50,36,20);
+    color:rgb(247,203,22);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 350px;
+
+}
+
+.ff {
+    width: 350px;
+    padding: 20px;
+    
+}
+.mf {
+    width: 350px;
+    padding: 20px;
+    margin-left: 110px;
+}
+.ffname {
+    background-color: rgb(50,36,20);
+    color: rgb(247,203,22);
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+
+.mfname {
+    background-color: rgb(50,36,20);
+    color: rgb(247,203,22);
+    font-size: 20px;
+    padding: 10px 20px;
+    float: right;
+    margin-right: 25px;
+}
+
+main1{
+    flex-grow: 1;
+}
+
+/********Nutrition********/
+.N_Title{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+.nutrition{
+    display: flex;
+    align-items: baseline;
+}
+.splash{
+    display: flex;
+    flex-grow: 1;
+    float: left;
+    padding:25px;
+}
+
+.label{
+    display: flex;
+    flex-grow: 1;
+    float: right;
+    padding: 25px;
+}
+
+
+/************Flavors***************
+***********************************/
+
+
+›.header1 {
+    display: flex;
+}
+.contactus1{
+    padding: 10px 20px;
+    background-color: rgb(50,36,20);
+    color: rgb(247,203,22);
+    text-decoration:none;
+    float: right;
+    margin-right:20px;
+    margin-top: 75px;
+}
+
+.flavors {
+    display:flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    flex: 1 0 122;
+    justify-content: center;
+    
+}
+.orange {
+   padding: 2px;
+   flex-grow: 1;
+    
+}
+
+.apple {
+    padding: 2px;
+    flex-grow: 1
+}
+
+.grape {
+    padding: 2px;
+    flex-grow: 1;
+}   
+
+.fp {
+    padding: 2px;
+    flex-grow: 1;
+}
+    
+.carrot {
+    padding: 2px;
+    flex-grow: 1;
+}    
+    
+.tropical {
+    padding: 2px;
+    flex-grow: 1;
+}    
+
+main {
+    flex-grow: 1;
+}
+
+
+/*******Contact Us************
+******************************/
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+header {
+    background-color: orange;
+    text-align: center;
+}
+footer {
+    text-align: center;
+
+main{
+    flex-grow: 1;
+}
+
